@@ -1,43 +1,38 @@
 # Credit Risk Prediction using XGBoost
-A machine learning–based credit risk prediction system using XGBoost, deployed as an interactive Streamlit web application to classify applicants as Good or Bad credit risk.
+This project presents a machine learning–based Credit Risk Prediction system that classifies loan applicants as either Good or Bad credit risks. Among several classification models evaluated, XGBoost (XGB) was selected as the final model due to its superior predictive performance.
 
-This project is a machine learning–based Credit Risk Prediction system that classifies loan applicants as Good or Bad credit risk.
-Multiple classification models were evaluated, and XGBoost (XGB) was selected as the final model due to its superior performance.
+The trained model is deployed through a Streamlit web application, allowing users to enter applicant details and receive real-time predictions.
 
-The trained model is deployed using a Streamlit web application, allowing users to interactively enter applicant details and receive real-time predictions.
+🚀 Key Features
 
-🚀 Features
-1.Predicts Good / Bad Credit Risk
-2.Uses XGBoost, the best-performing model among tested algorithms
-3.Interactive Streamlit web interface
-4.Handles categorical features using label encoding
-5.Real-time predictions with a trained ML model
+Predicts Good or Bad Credit Risk
+Implements XGBoost, the top-performing model among tested algorithms
+Interactive Streamlit interface for user inputs
+Handles categorical variables using label encoding
+Provides real-time predictions using a trained ML model
 
 Machine Learning Approach
 Models Evaluated
-Several machine learning algorithms were trained and evaluated during experimentation, including:
+During experimentation, multiple algorithms were trained and assessed, including:
 Decision Tree
 Random Forest
 Extra Trees Classifier
 XGBoost
-
-XGBoost was chosen as the final model because it provided:
-
+XGBoost was chosen for the final model due to:
 Higher predictive accuracy
-Better handling of non-linear relationships
-Robust performance compared to other models
+Robust handling of non-linear relationships
+Consistently strong performance across datasets
 
 Prediction Output
 
-The model classifies applicants into two categories:
+The model classifies applicants into:
 
 Prediction	Meaning
-Good Credit Risk	-->Low likelihood of loan default
-Bad Credit Risk -->	Higher likelihood of loan default
-
+Good Credit Risk	Low likelihood of loan default
+Bad Credit Risk	Higher likelihood of loan default
 🖥 Web Application
 
-The Streamlit app allows users to input the following details:
+The Streamlit app allows users to input key applicant details, including:
 
 Age
 Sex
@@ -47,8 +42,7 @@ Saving account status
 Checking account status
 Credit amount
 Loan duration (months)
-
-Based on these inputs, the trained XGBoost model predicts the applicant’s credit risk.
+The app uses the trained XGBoost model to provide instant credit risk predictions based on these inputs.
 
 🛠️ Tech Stack
 
@@ -58,19 +52,18 @@ Scikit-learn
 XGBoost
 Streamlit
 Joblib
-
 Dataset
 
-The dataset contains applicant demographic and financial information such as age, employment status, housing, account balances, credit amount, and loan duration.
+The dataset includes applicant demographic and financial information, such as age, employment status, housing, account balances, credit amount, and loan duration.
 
-Note: This project is intended for educational and demonstration purposes only and should not be used for real-world financial decision-making without proper validation.
+Note: This project is for educational purposes and demonstration only. It should not be used for real-world financial decisions without thorough validation.
 
-📈 Future Improvements
+📈 Future Enhancements
 
-Add feature importance visualization
-Display model confidence/probability
-Improve UI/UX with charts and explanations
-Deploy the app on Streamlit Cloud or other platforms
+Visualize feature importance
+Display model confidence/probabilities
+Enhance UI/UX with charts and explanations
+Deploy on Streamlit Cloud or other platforms
 
 👨‍💻 Author
 Sanmitra Kamble
